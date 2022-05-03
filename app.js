@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Orange data transfert show
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.2
 // @description  Affiche les données transférées des livebox, dans un format compréhensible pour les humains
 // @author       Romain NEIL
 // @match        http://*livebox/*
@@ -9,7 +9,7 @@
 // @grant        none
 // ==/UserScript==
 
-const dataElementsNames = []; //TODO: add elements here (planned)
+const dataElementsNames = ["wifi_10", "wifi_11","wifi_20", "wifi_21"]; //TODO: add elements here (planned)
 
 (function() {
 	'use strict';
@@ -18,11 +18,11 @@ const dataElementsNames = []; //TODO: add elements here (planned)
 		dataElementsNames.forEach((e) => {
 			const el = document.getElementById(e);
 
-			if(el !== null) {
+			if(el !== null && !el.innerText.includes('o')) {
 				el.innerText = format(parseFloat(el.innerText))
 			}
 		})
-	}, 5000)
+	}, 4000)
 })();
 
 /**
