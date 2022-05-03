@@ -9,6 +9,7 @@
   "author": "Romain NEIL",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^28.0.3"
   },
   "dependencies": {
     "random-interval": "^1.0.0"
