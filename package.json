@@ -1,0 +1,16 @@
+{
+  "name": "orange-data-viz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Romain NEIL",
+  "license": "ISC",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "random-interval": "^1.0.0"
+  }
+}
