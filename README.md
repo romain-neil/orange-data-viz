@@ -18,8 +18,11 @@ Le projet utilise jest pour tester, et sont dans le fichier `app.test.js`
 
 ## Note
 
-Ce projet (au 3 mai 2022) n'est pas encore testé.
-
 Je ne cautionne en aucunne manière les problèmes rencontrés via l'installation de ce script, et/ou, à travers les extensions ajoutées à votre navigateur.
 
 Ce script est fourni tel-quel, sans aucunne garantie
+
+## Images
+![](images/before.png) Avant
+
+![](images/after.png) Après
