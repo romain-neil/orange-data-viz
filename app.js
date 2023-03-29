@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Orange data transfert show
 // @namespace    http://tampermonkey.net/
-// @version      1.2.2
+// @version      1.2.3
 // @description  Affiche les données transférées des livebox, dans un format compréhensible pour les humains
 // @author       Romain NEIL
 // @match        http://*livebox/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @downloadURL  https://raw.githubusercontent.com/romain-neil/orange-data-viz/master/app.js
 // @grant        none
 // ==/UserScript==
 
